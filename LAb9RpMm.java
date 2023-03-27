@@ -1,4 +1,4 @@
-public class LAb9RpMm {
+
     
     class Animal {
         protected String food;
@@ -96,14 +96,12 @@ public class LAb9RpMm {
             System.out.println("Животное ест " + animal.food + ", находится в " + animal.location);
         }
     }
-    
-    
-    public class Test {
-        public void main(String[] args) {
+    public class LAb9RpMm {
+        public static void main(String[] args) {
         
-            Cat tom = new Cat("рыба", "дом", true);
-            Dog rex = new Dog("мясо", "вольер", "лайка");
-            Horse soul = new Horse("сено", "конюшня", "эстонская");
+            Cat tom = new Cat("рыба", "домe", true);
+            Dog rex = new Dog("мясо", "вольерe", "лайка");
+            Horse soul = new Horse("сено", "конюшнe", "эстонская");
     
             
             Veterinarian vet = new Veterinarian();
@@ -112,7 +110,6 @@ public class LAb9RpMm {
             vet.treatAnimal(tom);
             vet.treatAnimal(rex);
             vet.treatAnimal(soul);
-        }
     }
     
 }
